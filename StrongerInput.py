@@ -68,20 +68,3 @@ def RangeNumberInput(context, range1, range2):
             continue
 
 # no error in this part 2016-10-30-12-01 by @Michael 3778
-
-
-# make choices
-#function used:checkType(),RangeNumberInput()
-
-def choiceInput(c1, c2):
-	if checkType(c1, ""):
-		if checkType(c2, ""):
-			context = "|    1." + c1 + "  2." + c2 + "\n| >"
-			choice = RangeNumberInput(context, 1, 2)
-			return choice
-
-# no error in this part 2016-10-30-12-01 by @Michael 3778
-
-
-# different people talking
-#function used:print()
